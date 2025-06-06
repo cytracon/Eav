@@ -1,0 +1,17 @@
+{
+  "name": "cytracon/eav",
+  "description": "Magento Eav Plugin",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Cytracon\\Eav\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}

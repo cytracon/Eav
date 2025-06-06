@@ -1,0 +1,19 @@
+{
+    "mgz_eav_attribute_note": {
+        "column": {
+            "attribute_note_id": true,
+            "attribute_id": true,
+            "store_id": true,
+            "value": true
+        },
+        "index": {
+            "MGZ_EAV_ATTRIBUTE_NOTE_STORE_ID": true,
+            "MGZ_EAV_ATTRIBUTE_NOTE_ATTRIBUTE_ID_STORE_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "MGZ_EAV_ATTRIBUTE_NOTE_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID": true,
+            "MGZ_EAV_ATTRIBUTE_NOTE_STORE_ID_STORE_STORE_ID": true
+        }
+    }
+}
